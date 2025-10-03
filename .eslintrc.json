@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true,
+    "es6": false
+  },
+  "parserOptions": {
+    "ecmaVersion": 5,
+    "sourceType": "module"
+  },
+  "plugins": ["es5"],
+  "extends": ["eslint:recommended", "plugin:es5/no-es2015"],
+  "rules": {
+    "indent": "off",
+    "object-curly-newline": "off",
+    "array-bracket-newline": "off",
+    "react/react-in-jsx-scope": "off",
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "es5/no-arrow-functions": "error",
+    "es5/no-spread": "error"
+  }
+}
